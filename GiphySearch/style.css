@@ -1,0 +1,104 @@
+body {
+  background-color: rgba(2, 105, 57, 0.789);
+
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.navbar-brand.mb-0.h1 {
+    font-size: 2rem;
+    font-weight: medium;
+    font-style: normal;
+    color: rgb(238, 31, 107);
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 4px rgba(138, 122, 201, 0.5);
+    text-wrap: calc(8px);
+    overflow-wrap: break-word;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+    background-color: rgba(152, 1, 19, 0.622);
+  }
+
+
+}
+
+.giphy-image {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(137, 84, 84, 0.2);
+
+}
+
+.search-bar {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.352);
+}
+
+.search-button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.352);
+  background-color: rgb(255, 255, 255);
+  color: rgb(238, 31, 107);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.gridcontainer {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.gridContainer {
+            display:flex;
+            background-color: rgba(2, 105, 57, 0.789);
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 8px;
+            overflow: auto;
+            padding: 10px;
+            max-height: 80vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            position: relative;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            padding-top: 20px;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
