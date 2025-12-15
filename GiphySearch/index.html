@@ -6,16 +6,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Iceland&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>Where's that Gif ?</title>
     <script src="./main.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <style>
-        
-    </style>   
+    
 </head>   
 <body>
   <header>
-      <nav class="navbar" style="background-color: #520558c8;" data-bg-theme="bg-dark-subtle">
+      <nav class="navbar" style="background-color: #c240cc3c;" >
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
         <span class="navbar-brand mb-0 h1">Home</span>
@@ -24,27 +24,43 @@
       </div>
       </nav>
       </nav>
-      
-  </header>  
+   </header>  
   
-    <section class="gridContainer">
-      <div class="grid text-center">
-      <div class="g-col-6 g-col-md-4"></div>
-      <div class="g-col-6 g-col-md-4"></div>
-      <div class="g-col-6 g-col-md-4"></div>
-      </div>
-      <section></section>
-    <section>
-      <button type="onclick="handleAddImage()></button>
-    </section>    
+   <main>
+     <h1 class="welcome">Welcome to Where's That Gif!</h1>
+     <p class="basic">A simple and user-friendly website that allows you to search for GIFs.</p>
+     <hr class="directions">
+     <p>This website uses the GIPHY API to fetch GIFs based on Featured GIFs.</p>
+     <p>To use this website, simply type in a search term in the search bar and click the "Search" button.</p>
+     <p>You can also clear the search results by clicking the "Clear" button.</p>
+     <p>Enjoy your search for GIFs!</p>
+     <p>Made with VSC by <a href="https://github.com/Melissa127405">Melissa</a></p>
+    </h1>
+   </main>
+
+   <section class="gif-section">
+     <h2>OMG   RME   UGH</h2>
+      <p>Featured GIFs ... Look Up.</p>
+     <div id="giphyImages"></div>
+    <div id="featured-gifs"></div>
+    <script src="main.js"></script>
+
+
+   </section>
+   
+
+
     
-    </section>
-    <section class="Gif search">
+    
+    
+  
+    <section class="Gif-search">
       <input type="text" id="search-form" placeholder="Search for a GIF...">
-      <button id="mySearchButton">Search</button>
+      <button id="search">Search</button>
       <button id="clear">Clear</button>
       <div id="giphyImages"></div>
-      <script src="main.js"></script>
+      <script src="main.js"></script> 
+
     </section>
 
     <footer>
@@ -52,6 +68,6 @@
       <p>Made with VSC by <a href="https://github.com/Melissa127405">Melissa</a></p>
       <p>Powered by <a href="https://giphy.com/">Giphy</a></p>  </section>
     </footer>
-</body>
+ </body>
 
 </html>

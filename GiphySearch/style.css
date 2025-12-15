@@ -1,5 +1,6 @@
 body {
-  background-color: rgba(2, 105, 57, 0.789);
+  background-color: rgba(48, 204, 131, 0.323);
+  
 
 }
 
@@ -9,86 +10,96 @@ header {
   font-family: "Iceland", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: rgba(27, 180, 180, 0.397);
 }
  
-.navbar-brand.mb-0.h1 {
+.navbar-brand.mb-0 {
     font-size: 2rem;
     font-weight: medium;
     font-style: normal;
-    color: rgb(238, 31, 107);
+    color: rgb(115, 31, 211);
     letter-spacing: 0.5px;
-    text-shadow: 2px 2px 4px rgba(138, 122, 201, 0.5);
-    text-wrap: calc(8px);
-    overflow-wrap: break-word;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(214, 9, 159, 0.73);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    font-family: "Iceland", sans-serif;
     transition: background-color 0.3s ease;
 
-    &:hover {
-    background-color: rgba(152, 1, 19, 0.622);
+
+     &:hover {
+    background-color: rgba(65, 213, 32, 0.622);
   }
 
 
+
 }
+
+
 
 .giphy-image {
   width: fit-content;
   height: fit-content;
   margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(137, 84, 84, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(142, 26, 174, 0.2);
 
 }
 
-.search-bar {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.352);
+.gif-section h2 {
+  font-family: "Iceland", sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  color: rgba(200, 64, 238, 0.251);
+
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgba(13, 243, 21, 0.885);
+  }
 }
 
-.search-button {
+
+.Gif-search button {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.352);
-  background-color: rgb(255, 255, 255);
-  color: rgb(238, 31, 107);
-  font-weight: bold;
+  font-family: "Iceland", sans-serif;
+  
+  background-color: rgba(6, 243, 14, 0.338);
+  color: rgba(246, 9, 96, 0.912);
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-
-.gridcontainer {
-  display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 30px;
-  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(205, 61, 245, 0.867);
   
+  &:hover {
+    background-color: rgba(228, 6, 221, 0.362);
+  }
 }
 
-.gridContainer {
-            display:flex;
-            background-color: rgba(2, 105, 57, 0.789);
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 8px;
-            overflow: auto;
-            padding: 10px;
-            max-height: 80vh;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            position: relative;
-            overflow-y: auto;
-            overflow-x: hidden;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            padding-top: 20px;
-            border-top: 1px solid rgba(0, 0, 0, 0.2);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+.Gif-search search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+ 
 }
+  
+
+
+
+
+
+
+
 
 
   img {
@@ -96,9 +107,11 @@ header {
     height: 100%;
     object-fit: cover;
   }
+
+
   p {
     margin-top: 10px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(11, 129, 21, 0.568);
   }
 

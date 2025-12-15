@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {Element.getElementById('search-form').addEventListener('submit', handleSearch);}) 
-document.getElementsByClassName('gridcontainer');
+document.getElementsByClassName('giphyImages');
 // Fetch gifs from Giphy API and display them
-function handleSearch(event) {confirm('Are you sure you want to search for gifs?'); event.preventDefault(); const searchTerm = document.getElementById('search-input').value; fetchGifs(searchTerm);}
+function handleSearch(event) {confirm('Are you sure you want to search for gifs?'); event.preventDefault(); const searchTerm = document.getElementById('search-OMG').value; fetchGifs(searchTerm);}
+
 
 function fetchGifs(searchTerm) {
     const apiKey = '1F6PjTQW3iN1eMsezymO6DPWQVGouYgU';
