@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {Element.getElementById('search-form').addEventListener('submit', handleSearch);}) 
+document.addEventListener('DOMContentLoaded', () => 
+{document.getElementById('featured-gifs').addEventListener('submit', handleSearch);})   
 document.getElementsByClassName('giphyImages');
 // Fetch gifs from Giphy API and display them
 function handleSearch(event) {confirm('Are you sure you want to search for gifs?'); event.preventDefault(); const searchTerm = document.getElementById('search-OMG').value; fetchGifs(searchTerm);}
@@ -22,7 +23,22 @@ function displayGifs(gifs) {
     });
 }
 
+console.log("Array after loop in fetchGifs:", gifs);
 
+    
+// main.js
+function processData() {
+    const array = []; // Declare and initialize the array
+    array.push(1, 2, 3); // Populate the array for the loop
 
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];   
+        console.log(`Element at index ${index}: ${element}`);
+        
+
+    }
+    console.log("Array after loop in processData:", array);
+}
+processData();
 
 
