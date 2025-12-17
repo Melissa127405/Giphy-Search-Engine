@@ -1,5 +1,13 @@
 body {
   background-color: rgba(48, 204, 131, 0.323);
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Iceland", sans-serif;
+  
+  
 }
 
 header {
@@ -36,7 +44,14 @@ header {
 
 }
 
-
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: "Iceland", sans-serif;
+}
+ 
 .giphy-image {
   width: fit-content;
   height: fit-content;
@@ -45,26 +60,11 @@ header {
 
 }
 
-.gif-section h2 {
-  font-family: "Iceland", sans-serif;
-  font-size: 5rem;
-  font-weight: lighter;
-  color: rgba(200, 64, 238, 0.251);
-
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: rgba(13, 243, 21, 0.885);
-  }
-}
-
-
 .Gif-search button {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
   font-family: "Iceland", sans-serif;
-  
   background-color: rgba(6, 243, 14, 0.338);
   color: rgba(246, 9, 96, 0.912);
   padding: 10px 20px;
@@ -88,16 +88,4 @@ header {
  
 }
   
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-  p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: rgba(11, 129, 21, 0.568);
-  }
-
+  
