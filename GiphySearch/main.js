@@ -13,7 +13,7 @@ function displayGifs(gifs) {
     console.log("Array after loop in fetchGifs:", gifs);
     gifs.forEach(gif => {
         const imageElement = document.createElement('img');
-        imageElement.src = gif.images.fixed_width_small_still.url;
+        imageElement.src = gif.images.fixed_width_small.url;
         responseContainer.appendChild(imageElement);
     });
 }
@@ -23,5 +23,5 @@ function clearGifs() {
   document.getElementById("search-OMG").value = "";
 
   // Clear the GIF results
-  document.getElementById("giphyImages").innerHTML = "";
+  document.getElementById("response-container").innerHTML = "";
 }

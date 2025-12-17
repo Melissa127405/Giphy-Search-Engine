@@ -1,13 +1,11 @@
 body {
   background-color: rgba(48, 204, 131, 0.323);
   display: flex;
-  padding: 8px;
+  padding: 25px;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   font-family: "Iceland", sans-serif;
-  
-  
+ 
 }
 
 header {
@@ -25,31 +23,14 @@ header {
     font-style: normal;
     color: rgb(115, 31, 211);
     letter-spacing: 0.5px;
-    transition: background-color 0.3s ease;
     text-shadow: 2px 2px 4px rgba(214, 9, 159, 0.73);
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 1.5rem;
-    transition: background-color 0.3s ease;
     font-family: "Iceland", sans-serif;
-    transition: background-color 0.3s ease;
 
 
-     &:hover {
-    background-color: rgba(65, 213, 32, 0.622);
-  }
-
-}
-
-.main-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px;
-  font-family: "Iceland", sans-serif;
+      &:hover {
+    background-color: rgba(65, 213, 32, 0.622)
+     }
 }
  
 .giphy-image {
