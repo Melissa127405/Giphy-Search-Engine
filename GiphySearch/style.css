@@ -37,9 +37,11 @@ header {
   width: fit-content;
   height: fit-content;
   margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(142, 26, 174, 0.2);
-
+  padding: 2px;
+  
 }
+
+
 
 .Gif-search button {
   margin: 10px;

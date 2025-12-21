@@ -8,14 +8,14 @@
 
  ## Details on use and what functionality offered
  
-  1. Function FetchGifs
+1. Function FetchGifs
 
   using javascript to declare a function /
   using a constant variable (apikey) to request a spacific value defined by the HTML element ID /
   fetch to create a network request to the specified API / 
   including catch(error) to log the error for debugging /
 
-  2. Function displayGifs 
+2. Function displayGifs 
 
   the declared function accepts one argument / 
   this functioin is expected to be an array of objects /
@@ -23,10 +23,10 @@
   the URL is given a value for the object's properties /
   the element is created as a child of the specific ID /
 
-  3. Function Clear Gifs 
-
-  the elements are found that display the gif images /
-  and clears the screen both in the search bar and the image container /
+3. Function Clear Gifs 
+ 
+ the elements are found that display the gif images /
+ and clears the screen both in the search bar and the image container /
    
 ## User Stories
  
