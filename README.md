@@ -52,7 +52,8 @@
 
 # wireframes 
 
-![wireframes][def]: <giphy search wireframe.drawio.png>
+![wireframes][images]:<giphysearchwireframe.drawio.png>
+
 
 
 
