@@ -52,8 +52,15 @@
 
 # wireframes 
 
-![wireframes][images]:<giphysearchwireframe.drawio.png>
+![wireframe]: (image/GSwireframe.drawio.png)
 
 
 
 
+
+
+
+
+
+
+[image]: images/GSwireframe.drawio.png
