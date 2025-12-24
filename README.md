@@ -52,7 +52,7 @@
 
 # wireframes 
 
-![wireframe]: (images./GSwireframe.drawio.png)
+![wireframes](images/GSwireframe.drawio.png)
 
 
 
@@ -63,4 +63,3 @@
 
 
 
-[image]: images/GSwireframe.drawio.png
